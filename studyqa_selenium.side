@@ -1,0 +1,188 @@
+{
+  "id": "377a475a-08ab-4a6e-84a8-8083cf7de3f9",
+  "version": "2.0",
+  "name": "studyqaauto",
+  "url": "https://rozetka.com.ua/ua/",
+  "tests": [{
+    "id": "0c98e249-c445-4afc-b726-4e2ec88c0b5f",
+    "name": "add product 2",
+    "commands": [{
+      "id": "50799bb3-5f28-4a67-8dfe-a862bfa359c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f848dd0a-80e6-47d8-82d3-5d9f4d6bb0fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1728x1079",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "765b02f7-3c9f-4d58-872f-b776f9ccae34",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f0f1b4-0e17-4f73-a4ec-a3614c16aa07",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "apple"
+    }, {
+      "id": "32b70552-60dd-4b15-a8a0-16869f5239b4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "34541895-e3b0-410a-8d0a-7482eb513b72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(2) .portal-grid__cell:nth-child(1) .tile-cats__picture > .ng-star-inserted",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(2) .portal-grid__cell:nth-child(1) .tile-cats__picture > .ng-star-inserted", "css:finder"],
+        ["xpath=//img[@alt='iPhone']", "xpath:img"],
+        ["xpath=//rz-list-tile/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31154531-4dfe-44fd-a457-2cd571e885cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мобільний телефон Apple iPhone 15 128GB Black (MTP03RX/A)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fd8a101-467e-43ba-90a4-57c08c666643",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--medium > .buy-button__label",
+      "targets": [
+        ["css=.button--medium > .buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/div[3]/rz-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9757a45-edf2-4aa5-9261-b2ad6d1b322e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_size_large > span",
+      "targets": [
+        ["css=.button_size_large > span", "css:finder"],
+        ["xpath=//rz-checkout-button/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7c356429-b3e5-41a6-a8eb-b85fb0aedbcf",
+    "name": "delete product",
+    "commands": [{
+      "id": "e81fe2f5-1285-4a7e-9950-3fec793233d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2bea653-25eb-4b14-98f2-1af89df5f12d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1728x1079",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a03d50be-c209-4867-b834-3b219895319d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=11",
+      "targets": [
+        ["index=11"]
+      ],
+      "value": ""
+    }, {
+      "id": "06d2e7bb-8f19-4678-aff4-f49563117164",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "03711121-4571-49ac-a3dd-1c779ee792fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.badge",
+      "targets": [
+        ["css=.badge", "css:finder"],
+        ["xpath=//rz-icon-badge/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f6b658-4646-4f11-9162-a9770079b781",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartProductActions0",
+      "targets": [
+        ["id=cartProductActions0", "id"],
+        ["css=#cartProductActions0", "css:finder"],
+        ["xpath=//button[@id='cartProductActions0']", "xpath:attributes"],
+        ["xpath=//rz-popup-menu/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f94eb0f3-4e50-453f-828c-a187a7b7ae93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted > .button--medium",
+      "targets": [
+        ["css=.ng-star-inserted > .button--medium", "css:finder"],
+        ["xpath=(//button[@type='button'])[34]", "xpath:attributes"],
+        ["xpath=//div[@id='cartProductActions0']/ul/li/rz-trash-icon/button", "xpath:idRelative"],
+        ["xpath=//rz-trash-icon/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Видалити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8f06ec00-0230-480e-98be-093dd1e67f0f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://rozetka.com.ua/ua/"],
+  "plugins": []
+}
